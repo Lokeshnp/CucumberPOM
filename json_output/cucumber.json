@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-04T07:20:54.817Z",
+        "line": 3,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25577000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17639000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on login button first time",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.user_clicks_on_login_button_first_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user in on Login Page",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.user_in_on_Login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2403000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs into app",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.user_enters_the_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate home page title",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2869000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate logged in username",
+            "match": {
+              "location": "com.qa.stepDefinitions.HomePageSteps.validate_logged_in_username()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/qa/features/CRM.feature",
+    "tags": []
+  }
+]
